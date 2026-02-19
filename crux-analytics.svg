@@ -1,0 +1,28 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Chart frame -->
+        <rect x="8" y="10" width="48" height="36" rx="3" stroke="#F4622A" stroke-width="1.5" fill="rgba(244,98,42,0.04)"/>
+
+        <!-- X axis -->
+        <line x1="16" y1="38" x2="48" y2="38" stroke="#F4622A" stroke-width="1" opacity="0.4"/>
+        <!-- Y axis -->
+        <line x1="16" y1="16" x2="16" y2="38" stroke="#F4622A" stroke-width="1" opacity="0.4"/>
+
+        <!-- Bar 1 -->
+        <rect x="20" y="28" width="5" height="10" rx="1" fill="rgba(244,98,42,0.3)" stroke="#F4622A" stroke-width="1.2"/>
+        <!-- Bar 2 -->
+        <rect x="28" y="22" width="5" height="16" rx="1" fill="rgba(244,98,42,0.5)" stroke="#F4622A" stroke-width="1.2"/>
+        <!-- Bar 3 -->
+        <rect x="36" y="18" width="5" height="20" rx="1" fill="rgba(244,98,42,0.7)" stroke="#F4622A" stroke-width="1.2"/>
+
+        <!-- Trend line -->
+        <path d="M22.5 27 L30.5 20 L38.5 17" stroke="#FF7A45" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="38.5" cy="17" r="2" fill="#F4622A"/>
+
+        <!-- Report lines below chart -->
+        <line x1="8" y1="52" x2="36" y2="52" stroke="#F4622A" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+        <line x1="8" y1="57" x2="24" y2="57" stroke="#F4622A" stroke-width="1.2" stroke-linecap="round" opacity="0.25"/>
+        <!-- Small dot indicator -->
+        <circle cx="42" cy="52" r="2" fill="#F4622A" opacity="0.6"/>
+        <circle cx="48" cy="52" r="2" fill="#F4622A" opacity="0.3"/>
+        <circle cx="54" cy="52" r="2" fill="#F4622A" opacity="0.1"/>
+      </svg>
